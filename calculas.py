@@ -46,3 +46,8 @@ def adaptive_trapezoid(f, a, b, acc, output=False):
         if output == True :
             print ("N = " + str(n) + ",  Integral = " + str( h*s ))
     return h * s
+import math
+import sys
+import cmath
+import numpy as np
+
